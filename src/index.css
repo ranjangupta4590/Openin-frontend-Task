@@ -16,7 +16,14 @@ code {
     monospace;
 }
 
-
+.clip-path {
+  height: 100%;
+  clip-path: polygon(0% 0%, 55% 0, 59% 0, 34% 100%, 0% 100%);
+  background-color: rgb(26, 134, 236);
+} 
+/* .bg-theme {
+  background-image: linear-gradient( 0.2deg,  rgb(10, 100, 237) 4.8%, rgb(27, 198, 224) 85.5% );
+} */
 .data {
   @apply bg-white min-w-[80%] md:min-w-[23%]  xl:min-w-[250px]  mb-5 md:ml-2 rounded-2xl px-5 py-4 drop-shadow-xl border-[#E0E0E0] border-2 hover:bg-sky-200 
 }
