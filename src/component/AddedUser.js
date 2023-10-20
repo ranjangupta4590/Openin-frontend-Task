@@ -9,7 +9,7 @@ const AddedUser = () => {
 
   return (
     <div className="mt-5 min-h-[200px] lg:min-h-[87%] rounded-2xl flex flex-col  border-2 drop-shadow py-10 px-10">
-      <h1 className="text-2xl font-bold mt-2 ">{user.name}</h1>
+      <h1 className="text-2xl font-bold mt-2 text-left">{user.name}</h1>
       <div className=" flex flex-col lg:justify-between lg:items-between h-[200px]">
 
         <div className="flex flex-col justify-evenly lg:flex-row lg:justify-between  h-[100%] ">
