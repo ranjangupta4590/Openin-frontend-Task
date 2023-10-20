@@ -63,8 +63,8 @@ const UserAdd = ({ handleClick }) => {
             {/*input forms*/}
             <div className=" w-full mt-5">
               <form>
-                <div className="mt-2">
-                  <label htmlFor="name" className="text-sm font-semibold">
+                <div className="mt-2 text-left">
+                  <label htmlFor="name" className="text-sm font-semibold text-left">
                     Enter Name*
                   </label>
                   <br />
@@ -79,8 +79,8 @@ const UserAdd = ({ handleClick }) => {
                   />
                 </div>
 
-                <div className="mt-3 ">
-                  <label htmlFor="email" className="text-sm font-semibold ">
+                <div className="mt-3 text-left">
+                  <label htmlFor="email" className="text-sm font-semibold text-left">
                     Enter Email*
                   </label>
                   <br />
@@ -95,8 +95,8 @@ const UserAdd = ({ handleClick }) => {
                   />
                 </div>
 
-                <div className="mt-3">
-                  <label htmlFor="phone" className="text-sm font-semibold ">
+                <div className="mt-3 text-left">
+                  <label htmlFor="phone" className="text-sm font-semibold text-left">
                     Enter Phone*
                   </label>
                   <br />
@@ -127,8 +127,8 @@ const UserAdd = ({ handleClick }) => {
           // Social Form
           <div className=" w-full mt-5 flex flex-col">
             <form>
-              <div className="mt-2">
-                <label htmlFor="name" className="text-sm font-semibold">
+              <div className="mt-2 text-left">
+                <label htmlFor="name" className="text-sm font-semibold text-left">
                   Intagram Link{" "}
                   <span className="text-zinc-400 font-light">(optional)</span>
                 </label>
@@ -143,8 +143,8 @@ const UserAdd = ({ handleClick }) => {
                 />
               </div>
 
-              <div className="mt-3 ">
-                <label htmlFor="email" className="text-sm font-semibold ">
+              <div className="mt-3 text-left ">
+                <label htmlFor="email" className="text-sm font-semibold text-left">
                   Youtube Link{" "}
                   <span className="text-zinc-400 font-light">(optional)</span>
                 </label>
